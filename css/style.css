@@ -1,0 +1,293 @@
+html, body{
+    background-color: white;
+}
+
+header{
+    background-color: #2d2f3a;
+    max-width: 960px;
+/*    padding-top: 35px;*/
+/*    padding-bottom: 40px;*/
+/*    position: relative;*/
+}
+
+header .navbar{
+    margin-bottom: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+header .navbar-pills a{
+    padding: 20px 15px 20px 15px;
+}
+
+header .navbar a{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header .navbar a:hover{
+    text-decoration: none;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+header h1{
+    padding: 15px 40px 0px 40px;
+    text-align: center;
+    clear: both;
+    margin: 0px;
+    font-size: 25px;
+    float: left;
+    color: white;
+}
+.wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+
+.slider{
+/*    background-image: url(../images/slider2.jpg);*/
+    overflow: hidden;
+    height: 606px;
+    position: relative;
+    margin-bottom: 0px;
+    
+}
+
+.slider img {
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 606px;
+    z-index= -1;
+/*    background-color: rgba(45,46,59,0.1);*/
+/*    background-color: rgba(255,255,255,0.9);*/
+/*    background-color: rgba(255,255,255,0.5);*/
+}
+.slider h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 37%; 
+    text-align: center;
+/*    left: 85px;*/
+    color: white;
+    z-index= 101;
+}
+
+.silder .btn{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.slider a{
+    position: absolute;
+    top: 70%;
+}
+
+.slider .btn{
+    background: #f2f2f2;
+    color: #454759;
+}
+
+.slider .btn:hover{
+    background: white;
+    color: #454759;
+}
+/*nav{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul{
+    margin: 2px 0 0 0;
+}
+nav li{
+    display: inline;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    line-height: 6.5px;
+}
+
+nav li a{
+    padding: 0px;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+nav li a:hover, .selected{
+    color:#fc5a60;
+}
+
+nav li:last-child{
+/*    padding-right: 40px;*/
+}
+/**/
+
+.red{
+    background-color: red;
+}
+
+.service{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.service h2{
+    font-size: 30px;
+    color: #666d89;
+    font-weight: normal;
+}
+
+.service h3{
+    color: #666d89;
+    font-size: 18px;
+}
+
+.service p{
+    font-size: 18px;
+    color: #666d89;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.service ul{
+    list-style: none;
+}
+
+.service ul p{
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.about_us{
+    background-color: #fdfdfd;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about_us h2{
+    color: #666d89;
+    font-height: 30px;
+}
+
+.about_us p{
+    color: #666d89;
+    font-height: 18px;
+}
+
+.about_us h3{
+    color: #666d89;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.about_us ul{
+    overflow: hidden;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.about_us img{
+    height: 302px;
+    width: 302px;
+}
+
+.about_us ul:last-child{
+    padding-right: 0px;
+}
+
+.about_us ul p{
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.sign_up{
+    background-color: #f06c64;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.sign_up p{
+    color: #f0d8d9;
+    font-height: 18px;
+    line-height: 30px;
+}
+
+.sign_up h2{
+    color: #f0d8d9;
+    font-size: 30px;
+}
+
+.form ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form li{
+    padding-bottom: 20px;
+}
+
+.form input[type="text"], input[type="password"]{
+    font-size: 18px;
+    color: #f0d8d9;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6564f;
+}
+
+.form input[type="submit"]{
+        background: #f2f2f2;
+        color: #454759;
+}
+
+.form input[type="submit"]:hover{
+    background: #f0d8d9;
+    color: #454759;
+}
+
+.form input::-webkit-input-placeholder {
+    color: #f48c8f;
+}
+.form input::-moz-placeholder {
+    color: #f48c8f;
+}
+.form input[type="text"]:focus, input[type="password"]:focus{
+    background: #d6564f;
+    box-shadow: 1px 1px 5px #f48c8f;
+}
+
+.contact{
+    padding-left: 20px;
+}
+.contact h3{
+    color: #f0d8d9;
+    font-size: 18px;
+}
+
+.contact p{
+    color: #f0d8d9;
+    font-height: 12px;
+    line-height: 21px;
+}
+
+footer{
+    background-color: #2d303a;
+    padding: 30px 0 25px 40px;
+}
+
+footer p{
+    color: #666d89;
+    padding: 0px;
+    margin: 0px;
+}
