@@ -159,10 +159,11 @@ nav li:last-child{
 
 .service ul{
     list-style: none;
+    padding-right: 5px;
 }
 
 .service ul p{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 21px;
 }
 
@@ -205,7 +206,7 @@ nav li:last-child{
 }
 
 .about_us ul p{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 21px;
 }
 
